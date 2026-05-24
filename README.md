@@ -28,7 +28,7 @@ To ensure everything displays and functions correctly, install the following:
 
 ## Installation
 ```
-git clone https://github.com/GadzhievAleksandr/eww-dashboard
+https://github.com/S0LYER/eww-dashboard
 cd eww-dashboard
 cp eww ~/.config/
 ```
