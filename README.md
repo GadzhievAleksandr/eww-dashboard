@@ -28,7 +28,7 @@ To ensure everything displays and functions correctly, install the following:
 
 ## Installation
 ```
-git clone https://github.com/RomanLivik/eww-dashboard
+git clone https://github.com/GadzhievAleksandr/eww-dashboard
 cd eww-dashboard
 cp eww ~/.config/
 ```
@@ -47,7 +47,7 @@ Add this to your hyprland.conf to launch it on startup:
 exec-once = eww daemon && eww open dashboard
 ```
 
-## Important Notes
-* Encoding: Do not add icons or non-English characters to eww.scss. All icons are handled as text labels within eww.yuck to prevent CSS parser crashes.
-* Monochrome Icons: Icons are using Nerd Font symbols. Their color is controlled via the color: #ffffff; property in the SCSS file.
-* The widget is set to 1200px width. If you find it too large for your scaling, adjust the :width and :height values in the geometry section of eww.yuck
+> [!IMPORTANT]
+> * Encoding: Do not add icons or non-English characters to eww.scss. All icons are handled as text labels within eww.yuck to prevent CSS parser crashes.
+> * Monochrome Icons: Icons are using Nerd Font symbols. Their color is controlled via the color: #ffffff; property in the SCSS file.
+> * The widget is set to 1200px width. If you find it too large for your scaling, adjust the :width and :height values in the geometry section of eww.yuck
